@@ -1,6 +1,6 @@
 {
   "name": "next-linaria-mdx",
-  "version": "1.0.1-beta",
+  "version": "1.0.1",
   "description": "Linaria support for Next.js applications",
   "main": "index.js",
   "dependencies": {},
