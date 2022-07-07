@@ -13,13 +13,13 @@ This module is intended to be used with Next.js built-in CSS support (https://ne
 ## Installation
 
 ```
-npm install --save next-linaria linaria
+npm install --save next-linaria-mdx linaria
 ```
 
 or
 
 ```
-yarn add next-linaria linaria
+yarn add next-linaria-mdx linaria
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Create a `next.config.js` in your project
 
 ```js
 // next.config.js
-const withLinaria = require('next-linaria');
+const withLinaria = require("next-linaria");
 module.exports = withLinaria({
   /* config options here */
 });
@@ -38,7 +38,7 @@ module.exports = withLinaria({
 
 ```js
 // next.config.js
-const withLinaria = require('next-linaria');
+const withLinaria = require("next-linaria");
 module.exports = withLinaria({
   linaria: {
     /* linaria options here */
@@ -52,7 +52,7 @@ Optionally you can add your custom Next.js configuration as parameter
 
 ```js
 // next.config.js
-const withLinaria = require('next-linaria');
+const withLinaria = require("next-linaria");
 module.exports = withLinaria({
   webpack(config, options) {
     return config;
